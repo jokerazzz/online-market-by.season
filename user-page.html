@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПОСЕЗОНУ</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__city">
+                            <span>Ваш город:</span>
+                            <select name="" id="">
+                                <option value="">Краснодар</option>
+                                <option value="">Москва</option>
+                                <option value="">Сочи</option>
+                            </select>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__phone">
+                                <a href="#"><span>Заказать бесплатный звонок</span> </a>
+                                <a href="tel:79284400036">+7 928 440 00 36</a>
+                            </div>
+                            <div class="header__social">
+                                <a href="#"><img src="images/icon/whatsapp.png"></a>
+                                <a href="#"><img src="images/icon/youtube.png"></a>
+                                <a href="#"><img src="images/icon/inst.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="header__nav-inner">
+                        <div class="header__nav-logo">
+                            <a href="home.html"><img src="images/icon/logo.png" alt="Логотип"></a>
+                        </div>
+                        <div class="burger__menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="header__nav-list">
+                            <li><a class="main-link" href="main-category.html">Каталог</a></li>
+                            <li><a class="sale-link" href="#">sale</a></li>
+                            <li><a href="#">новинки</a></li>
+                            <li><a href="#">доставка и оплата</a></li>
+                            <li><a href="contact-page.html">контакты</a></li>
+                        </ul>
+                        <div class="header__nav-search">
+                            <span><img src="images/icon/search.png" alt=""></span>
+                            <input type="text" placeholder="ПОИСК">
+                        </div>
+                        <div class="header__nav-user">
+                            <a href="user-page.html" class="login"><img src="images/icon/user.png" alt=""><span>Азамат</span> </a>
+                            <a href="page-basket.html" class="basket"><img src="images/icon/basket.svg"
+                                    alt=""><span>0</span></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs__inner">
+                        <span><a href="home.html">Главная</a></span>
+                        <span><a href="№">Личный кабинет</a></span>
+                        <span>Мои заказы</span>
+                    </div>
+                </div>
+            </section>
+            <section class="user__page">
+                <div class="container">
+                    <div class="user__page-title">Личный кабинет</div>
+                    <div class="user__page-inner">
+                        <div class="product__one-tabs settings__tabs">
+                            <div class="tabs">
+                                <span class="tab  active user-tab-1" data-id="1">Мои заказы</span>
+                                <span class="tab user-tab-2" data-id="2">Личные данные</span>
+                                <span class="tab-exit">Выход</span>
+                            </div>
+                            <div class="tab_content">
+                                <div class="tab-item active-tab" id="1">
+                                    <div class="user__box">
+                                        <div class="user__tab-name box-title">Мои заказы</div>
+                                        <div class="box-title__list">
+                                            <ul class="box-title__list-top">
+                                                <li>№ заказа</li>
+                                                <li>Дата заказа</li>
+                                                <li>Сумма</li>
+                                                <li>Статус</li>
+                                                <li>Трек отслеживания</li>
+                                            </ul>
+                                            <ul>
+                                                <li>№123456</li>
+                                                <li>25.07.2020</li>
+                                                <li>4 298 <br> <span>не оплачен</span> </li>
+                                                <li>Обрабатывается</li>
+                                                <li>12345678912345678900</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-item " id="2">
+                                    <div class="user__box-contact">
+                                        <div class="user__tab-name-2 box-title">Личные данные</div>
+                                        <div class="box-contact__form">
+                                            <form action="">
+                                                <label for="">Фамилия:</label>
+                                                <input type="text" placeholder="Фамилия">
+                                                <label for="">Имя:</label>
+                                                <input type="text" placeholder="Имя">
+                                            </form>
+                                            <form action="">
+                                                <label for="">Email:</label>
+                                                <input type="text" placeholder="Email">
+                                                <label for="">телефон:</label>
+                                                <input type="text" placeholder="+7 (918) 123-45-67">
+                                            </form>
+                                        </div>
+                                        <div class="box-contact__city">
+                                            <form action="">
+                                                <label for="">Город:</label>
+                                                <input type="text" placeholder="Введите название города">
+                                            </form>
+                                        </div>
+                                        <div class="box-contact__street">
+                                            <form class="contact__street" action="">
+                                                <label for="">Улица:</label>
+                                                <input type="text" placeholder="Введите название улицы">
+                                            </form>
+                                            <form class="contact__street-config" action="">
+                                                <div>
+                                                    <label for="">Дом:</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div>
+                                                    <label for="">Корпус:</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div>
+                                                    <label for="">Квартира:</label>
+                                                    <input type="text">
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="delete-acc">Удалить аккаунт</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer__info-logo">
+                            <img src="images/icon/logo.png" alt="">
+                        </div>
+                        <div class="footer__info-content">
+                            <div class="info-content__phone">
+                                ТЕЛЕФОН <span>+7 (928) 440-00-36</span>
+                            </div>
+                            <div class="info-content__social">
+                                МЫ В СОЦСЕТЯХ <a href="#"></a>
+                            </div>
+                        </div>
+                        <div class="footer__info-visa">
+                            <img src="images/visa.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer__info-list">
+                        <div class="info-list-title">КАТАЛОГ</div>
+                        <ul>
+                            <li><a href="#">Верхняя одежда</a></li>
+                            <li><a href="#">Платья</a></li>
+                            <li><a href="#">Блузки</a></li>
+                            <li><a href="#">Джинсы </a></li>
+                            <li><a href="#">Брюки</a></li>
+                            <li><a href="#">Аксессуары</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <div class="info-list-title">КОМПАНИЯ</div>
+                        <ul>
+                            <li><a href="#">О нас </a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="info-list-title">Дополнительно</div>
+                        <ul>
+                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">Подарочные сертификаты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <div class="info-list-title">КЛИЕНТАМ</div>
+                        <ul>
+                            <li><a href="#">Доставка, оплата и примерка</a></li>
+                            <li><a href="#">Возврат и обмен</a></li>
+                            <li><a href="#">Условия обслуживания</a></li>
+                            <li><a href="#">Политика конфиденциальности </a></li>
+                            <li><a href="#">Служба поддержки</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <div class="container">
+                    <div class="copy-text">
+                        (c) ПОСЕЗОНУ - интернет-магазин женской одежды | Все права защизены
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

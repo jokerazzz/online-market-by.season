@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПОСЕЗОНУ</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/magnify.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__city">
+                            <span>Ваш город:</span>
+                            <select name="" id="">
+                                <option value="">Краснодар</option>
+                                <option value="">Москва</option>
+                                <option value="">Сочи</option>
+                            </select>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__phone">
+                                <a href="#"><span>Заказать бесплатный звонок</span> </a>
+                                <a href="tel:79284400036">+7 928 440 00 36</a>
+                            </div>
+                            <div class="header__social">
+                                <a href="#"><img src="images/icon/whatsapp.png"></a>
+                                <a href="#"><img src="images/icon/youtube.png"></a>
+                                <a href="#"><img src="images/icon/inst.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="header__nav-inner">
+                        <div class="header__nav-logo">
+                            <a href="home.html"><img src="images/icon/logo.png" alt="Логотип"></a>
+                        </div>
+                        <div class="burger__menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="header__nav-list">
+                            <li><a class="main-link" href="main-category.html">Каталог</a></li>
+                            <li><a class="sale-link" href="#">sale</a></li>
+                            <li><a href="#">новинки</a></li>
+                            <li><a href="#">доставка и оплата</a></li>
+                            <li><a href="contact-page.html">контакты</a></li>
+                        </ul>
+                        <div class="header__nav-search">
+                            <span><img src="images/icon/search.png" alt=""></span>
+                            <input type="text" placeholder="ПОИСК">
+                        </div>
+                        <div class="header__nav-user">
+                            <a href="user-page.html" class="login"><img src="images/icon/user.png" alt=""></a>
+                            <a href="page-basket.html" class="basket"><img src="images/icon/basket.svg"
+                                    alt=""><span>0</span></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs__inner">
+                        <span><a href="home.html">Главная</a></span>
+                        <span><a href="main-category.html">Каталог</a></span>
+                        <span><a href="#">Платья</a></span>
+                        <span>Платье ZARA</span>
+                    </div>
+                </div>
+            </section>
+            <section class="item__card">
+                <div class="container">
+                    <div class="item__card-inner">
+                        <div class="item__card-info">
+                            <div class="card-info__images">
+                                <div class="slider-nav">
+                                    <div class="slider-for__images">
+                                        <img src="images/item-card/small-2.png" alt="">
+                                    </div>
+                                    <div class="slider-for__images">
+                                        <img src="images/item-card/small-3.png" alt="">
+                                    </div>
+                                    <div class="slider-for__images">
+                                        <img src="images/item-card/small-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider-for">
+                                    <div class="slider-for__images">
+                                        <img class="zoom" src="images/item-card/main-2.jpg"
+                                            data-magnify-src="images/item-card/main-2large.jpg" alt="">
+                                    </div>
+                                    <div class="slider-for__images">
+                                        <img class="zoom" src="images/item-card/main-3.jpg"
+                                            data-magnify-src="images/item-card/main-3large.jpg" alt="">
+                                    </div>
+                                    <div class="slider-for__images">
+                                        <img class="zoom" src="images/item-card/main-1.jpg"
+                                            data-magnify-src="images/item-card/main-1large.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info__content">
+                                <div class="info__content-title">ПЛАТЬЕ ZARA</div>
+                                <div class="info__content-color_price">
+                                    <div class="info__content-color">
+                                        <span>Цвет:</span>
+                                        <form class="colors active">
+                                            <input type="checkbox" name="color-1" id="color-1">
+                                            <label for="color-1" class="yellow"></label>
+                                            <input type="checkbox" name="color-2" id="color-2">
+                                            <label for="color-2" class="black"></label>
+                                        </form>
+                                    </div>
+                                    <div class="info__content-price">
+                                        <div class="content__item-price">2 199</div>
+                                        <span class="main-discount">- 56% <span class="content__item-oldprice">4
+                                                999</span></span>
+                                    </div>
+                                </div>
+                                <div class="info__content-size">
+                                    <div class="content-size__title">
+                                        <span>Размер:</span> <a href="#">Таблица размеров</a>
+                                    </div>
+
+                                    <div class="item-list__size active">
+                                        <span>40</span>
+                                        <span>42</span>
+                                        <span>44</span>
+                                        <span>46</span>
+                                        <span>48</span>
+                                        <span>50</span>
+                                        <span>52</span>
+                                        <span>54</span>
+                                        <span>56</span>
+                                        <span>58</span>
+                                        <span>60</span>
+                                        <span>62</span>
+                                    </div>
+                                </div>
+                                <div class="info__content-button">
+                                    <button type="submit">Добавить в корзину</button>
+                                    <a href="#modal-popup" class="modal-btn">Купить в 1 клик</a>
+                                </div>
+                                <div class="info__content-text">
+                                    <div class="product__one-tabs settings__tabs">
+                                        <div class="tabs">
+                                            <span class="tab  active" data-id="1">Детали</span>
+                                            <span class="tab" data-id="2">Доставка и оплата</span>
+                                        </div>
+                                        <div class="tab_content">
+                                            <div class="tab-item active-tab" id="1">
+                                                <div class="personal-box">
+                                                    <div class="personal-box__text">
+                                                        <p>
+                                                            Состав: 100% хлопок <br>
+                                                            Страна-производитель: КИТАЙ <br>
+                                                            Уход: Бережная стирка при максимальной<br> температуре 30ºС,
+                                                            Не
+                                                            отбеливать, Машинная сушка запрещена, Глажение при 150ºС,
+                                                            Профессиональная сухая чистка. Мягкий режим. <br>
+                                                            Арт. 15869562852
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item active-tab" id="2">
+                                                <div class="personal-box">
+                                                    <div class="personal-box__text">
+                                                        <p>
+                                                            Бесплатная доставка при заказе от 4 000 рублей.
+                                                            <br><br>
+                                                            При заказе менее 4 000 рублей:
+                                                            Доставка по России осуществляется согласно тарифам ТК;
+                                                            Доставка по г.Краснодару - 200 руб.
+                                                            <br><br>
+                                                            Вы можете выбрать наиболее подходящий для вас способ
+                                                            доставки
+                                                            товара: <br>
+                                                            - Доставка до пункта выдачи заказов в вашем городе; <br>
+                                                            - Самовывозом из магазина. <br><br>
+                                                            Отправка заказа осуществляется после оплаты стоимости заказа
+                                                            с
+                                                            учетом доставки банковской картой на сайте или по ссылке от
+                                                            менеджера.
+                                                            <br><br>
+                                                            Более подробная информация в разделе Доставка и оплата
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="products">
+                <div class="container">
+                    <div class="products__title">Сопутствующие товары</div>
+                    <div class="products__slider">
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-1.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-2.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-3.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-4.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-1.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-3.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__item-images">
+                                <img src="images/products/products-4.png" alt="">
+                            </div>
+                            <div class="products__item-title">Палантин</div>
+                            <div class="content__item-price">1 200</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="whatched">
+                <div class="container">
+                    <div class="products__title">ВЫ НЕДАВНО ПРОСМАТРИВАЛИ</div>
+                    <div class="whatched__content-items">
+                        <div class="content__item">
+                            <a class="content__item-images" href="#">
+                                <img src="images/content/content-img1.png" alt="">
+                                <span class="content__item-new">NEW</span><span class="content__item-sale">SALE</span>
+                            </a>
+                            <div class="content__item-title">Платье от ZARA</div>
+                            <span class="content__item-price">2 199 </span>
+                            <span class="content__item-oldprice">4 999</span>
+                        </div>
+                        <div class="content__item">
+                            <a class="content__item-images" href="#">
+                                <img src="images/content/content-img2.png" alt="">
+                                <span class="content__item-new">NEW</span><span class="content__item-sale">SALE</span>
+                            </a>
+                            <div class="content__item-title">Платье от ZARA</div>
+                            <span class="content__item-price">2 199 </span>
+                            <span class="content__item-oldprice">4 999</span>
+                        </div>
+                        <div class="content__item">
+                            <a class="content__item-images" href="#">
+                                <img src="images/content/content-img1.png" alt="">
+                                <span class="content__item-new">NEW</span><span class="content__item-sale">SALE</span>
+                            </a>
+                            <div class="content__item-title">Платье от ZARA</div>
+                            <span class="content__item-price">2 199 </span>
+                            <span class="content__item-oldprice">4 999</span>
+                        </div>
+                        <div class="content__item">
+                            <a class="content__item-images" href="#">
+                                <img src="images/content/content-img2.png" alt="">
+                                <span class="content__item-new">NEW</span><span class="content__item-sale">SALE</span>
+                            </a>
+                            <div class="content__item-title">Платье от ZARA</div>
+                            <span class="content__item-price">2 199 </span>
+                            <span class="content__item-oldprice">4 999</span>
+                        </div>
+                        <div class="content__item">
+                            <a class="content__item-images" href="#">
+                                <img src="images/content/content-img2.png" alt="">
+                                <span class="content__item-new">NEW</span><span class="content__item-sale">SALE</span>
+                            </a>
+                            <div class="content__item-title">Платье от ZARA</div>
+                            <span class="content__item-price">2 199 </span>
+                            <span class="content__item-oldprice">4 999</span>
+                        </div>
+                        <div class="content__item">
+                            <a class="content__item-images" href="#">
+                                <img src="images/content/content-img2.png" alt="">
+                                <span class="content__item-new">NEW</span><span class="content__item-sale">SALE</span>
+                            </a>
+                            <div class="content__item-title">Платье от ZARA</div>
+                            <span class="content__item-price">2 199 </span>
+                            <span class="content__item-oldprice">4 999</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer__info-logo">
+                            <img src="images/icon/logo.png" alt="">
+                        </div>
+                        <div class="footer__info-content">
+                            <div class="info-content__phone">
+                                ТЕЛЕФОН <span>+7 (928) 440-00-36</span>
+                            </div>
+                            <div class="info-content__social">
+                                МЫ В СОЦСЕТЯХ <a href="#"></a>
+                            </div>
+                        </div>
+                        <div class="footer__info-visa">
+                            <img src="images/visa.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer__info-list">
+                        <div class="info-list-title">КАТАЛОГ</div>
+                        <ul>
+                            <li><a href="#">Верхняя одежда</a></li>
+                            <li><a href="#">Платья</a></li>
+                            <li><a href="#">Блузки</a></li>
+                            <li><a href="#">Джинсы </a></li>
+                            <li><a href="#">Брюки</a></li>
+                            <li><a href="#">Аксессуары</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <div class="info-list-title">КОМПАНИЯ</div>
+                        <ul>
+                            <li><a href="#">О нас </a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="info-list-title">Дополнительно</div>
+                        <ul>
+                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">Подарочные сертификаты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__info-list">
+                        <div class="info-list-title">КЛИЕНТАМ</div>
+                        <ul>
+                            <li><a href="#">Доставка, оплата и примерка</a></li>
+                            <li><a href="#">Возврат и обмен</a></li>
+                            <li><a href="#">Условия обслуживания</a></li>
+                            <li><a href="#">Политика конфиденциальности </a></li>
+                            <li><a href="#">Служба поддержки</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <div class="container">
+                    <div class="copy-text">
+                        (c) ПОСЕЗОНУ - интернет-магазин женской одежды | Все права защизены
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="modal-popup">
+        <div class="popup-close">&times;</div>
+        <div class="popup-title">БЫСТРЫЙ ЗАКАЗ</div>
+        <div class="popup-content">
+            <div class="popup-images">
+                <img src="images/item-card/main-2.jpg" alt="">
+            </div>
+            <div class="popup-info">
+                <div class="popup-info-title">Платье ZARA</div>
+                <div class="info__content-price">
+                    <div class="content__item-price">2 199</div>
+                    <span class="main-discount">- 56%
+                        <span class="content__item-oldprice">4 999</span></span>
+                </div>
+                <div class="info__content-size">
+                    <div class="content-size__title">
+                        <span>Доступные размеры:</span>
+                    </div>
+                    <div class="item-list__size active">
+                        <span>40</span>
+                        <span>42</span>
+                        <span>44</span>
+                        <span>46</span>
+                        <span>48</span>
+                        <span>50</span>
+                        <span>52</span>
+                        <span>54</span>
+                        <span>56</span>
+                        <span>58</span>
+                        <span>60</span>
+                        <span>62</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-info-contact">
+            <form action="">
+                <label for="">Имя: <span>*</span></label>
+                <input type="text" placeholder="Имя" required>
+            </form>
+            <form action="">
+                <label for="">Телефон: <span>*</span></label>
+                <input type="text" placeholder="+7 (9__) ___-__-__" required>
+            </form>
+
+
+        </div>
+        <div class="popup-info-button">
+            <button type="submit">Заказать</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.magnify.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
