@@ -202,8 +202,36 @@ $(function () {
       $input.change();
       return false;
     });
-    
 
+    $(".num-in span").click(function () {
+      var $input = $(this).parents(".num-block").find("input.in-num");
+      var price = $('.content__item-oldprice').text().replace(' ', '')*(1 - .56)
+      if ($(this).hasClass("minus")) {
+          var count = parseFloat($input.val()) - 1;
+          count = count < 1 ? 1 : count;
+          if (count < 2) {
+              $(this).addClass("dis");
+          } else {
+              $(this).removeClass("dis");
+          }
+          $input.val(count);
+          $(".content__item-price").text(count*(+price))
+      } else {
+          var count = parseFloat($input.val()) + 1;
+          $input.val(count);
+          $(".content__item-price").text(count*(+price))
+          if (count > 1) {
+              $(this).parents(".num-block").find(".minus").removeClass("dis");
+          }
+      }
+  
+      $input.change();
+      return false;
+  });
+    
+    $('.item-list__size span').on('click', function(){
+      $('.item-list__size span'). toggleClass('active');
+    });
     
     $(".js-range-slider").ionRangeSlider({
         type: "double",
