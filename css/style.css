@@ -240,7 +240,7 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    z-index: 100;
+    z-index: 50;
 }
 
 .slick-dots li{
@@ -791,6 +791,11 @@ body{
 }
 
 .item-list__size span:hover{
+    background: #7E0C21;
+    color: #fff;
+}
+
+.item-list__size span.active{
     background: #7E0C21;
     color: #fff;
 }
@@ -2531,6 +2536,11 @@ body{
     .basket__content-price{
         width: 90%;
     }
+    .box-contact__form form,
+    .box-contact__city form,
+    .box-contact__street .contact__street {
+        width: 100%;
+    }
 }
 
 @media (max-width:500px){
@@ -2664,6 +2674,7 @@ body{
     .box-title__list ul li span{
         margin-left: 10px;
     }
+    
 }
 
 
